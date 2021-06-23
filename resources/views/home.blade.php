@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>home</title>
     <h1>welcome home</h1>
+    <a href="{{ route("logout") }}">Logout</a><br>
+
 </head>
 <body>
 </body>
