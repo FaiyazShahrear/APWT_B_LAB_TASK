@@ -19,6 +19,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/login','LoginController@index')->name('login.index');
 Route::post('/login','LoginController@verify')->name('login.verify');
+Route::get('/logout', 'LogoutController@index')->name('logout');
+
 
 Route::get('/home', 'HomeController@index')->name('home');
 
