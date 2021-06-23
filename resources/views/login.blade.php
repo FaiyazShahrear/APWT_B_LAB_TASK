@@ -13,6 +13,8 @@
         <label>password</label>
         <input type="text" name="password"><br>
         <input type="submit" name="submit">
+        <td><a href="{{route('registration')}}">signup</a></td>
+
     </form>
 @foreach ( $errors->all() as $er)
     <p>{{ $er }}</p><br>
